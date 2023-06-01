@@ -103,10 +103,13 @@ ul{
 }
 
 .greet{
-    font-size: 310%;
+    font-size: 8vw;
+    text-align: center;
 }
 .question{
-    font-size: 180%;
+    margin-top: 1rem;
+    font-size: 5vw;
+    text-align: center;
 }
 .response{
     display: flex;
@@ -115,7 +118,8 @@ ul{
     padding-top: 12px;
 }
 .myinput{
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     background: none;
     border: none;
     font-size: 180%;
